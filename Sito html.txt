@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TUO_NOME</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<h1>TUO_NOME</h1>
+</header>
+
+<section class="foto">
+<img src="TUAFOTO.jpg" alt="La mia foto">
+</section>
+
+<section class="descrizione">
+<h2>Chi sono</h2>
+<p>
+Sono un professionista nel settore XXX, con esperienza in YYY, offro servizi di ZZZ.
+</p>
+</section>
+
+<section class="lavori">
+<h2>Cosa posso fare per te</h2>
+<ul>
+<li>Servizio 1</li>
+<li>Servizio 2</li>
+<li>Servizio 3</li>
+<li>Servizio 4</li>
+</ul>
+</section>
+
+<section class="video">
+<h2>I miei video</h2>
+<div class="video-list" id="video-list">
+<!-- i video vengono caricati dinamicamente -->
+</div>
+</section>
+
+<section class="contatti">
+<h2>Contattami</h2>
+<form method="post" action="send.php">
+<label for="name">Nome:</label>
+<input type="text" id="name" name="name" required>
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" required>
+<label for="message">Messaggio:</label>
+<textarea id="message" name="message" required></textarea>
+<button type="submit">Invia</button>
+</form>
+<ul class="social">
+<li><a href="https://linkedin.com/in/TUO_PROFILO" target="_blank">LinkedIn</a></li>
+<li><a href="https://instagram.com/TUO_PROFILO" target="_blank">Instagram</a></li>
+<li><a href="mailto:tuaemail@dominio.com">Email</a></li>
+</ul>
+</section>
+
+<footer>
+&copy; 2025 TUO_NOME - Tutti i diritti riservati
+</footer>
+
+<script src="videos.js"></script>
+</body>
+</html>

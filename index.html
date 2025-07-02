@@ -20,18 +20,17 @@
 
     nav a:hover { color: #b2ebf2; }
 
-    .hero { position: relative; height: 100vh; overflow: hidden; }
+    /* Riduzione dell'altezza della sezione hero */
+    .hero { position: relative; height: 80vh; overflow: hidden; }
     #bg-video { position: absolute; top: 0; left: 0; min-width: 100%; min-height: 100%; object-fit: cover; z-index: -1; filter: brightness(0.6) saturate(1.2); }
 
     .hero-text {
-      position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+      position: absolute; top: 25%; left: 50%; transform: translate(-50%, -25%); /* Testo più in alto */
       text-align: center;
-    }
-
-    .hero-text h1 { font-size: 3em; letter-spacing: 2px; color: #00bcd4; }
+    }.hero-text h1 { font-size: 3em; letter-spacing: 2px; color: #00bcd4; }
     .typed-text { font-size: 1.5em; margin-top: 10px; color: #b2ebf2; }
 
-    section { padding: 100px 20px; text-align: center; opacity: 0; transition: opacity 1s ease-out; }
+    section { padding: 50px 20px; text-align: center; opacity: 0; transition: opacity 1s ease-out; }
     section.visible { opacity: 1; }
 
     .about, .portfolio, .contact { background: rgba(0, 31, 63, 0.9); }

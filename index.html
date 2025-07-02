@@ -58,6 +58,20 @@
     }
     button:hover { background: #b2ebf2; }
 
+    /* Modifica per la foto */
+    .foto {
+      display: flex;
+      justify-content: center;  /* Centra orizzontalmente */
+      align-items: center;      /* Centra verticalmente */
+      height: 100vh;            /* Imposta l'altezza al 100% della finestra */
+    }
+
+    .foto img {
+      max-width: 80%;           /* Riduce la dimensione dell'immagine al 80% */
+      height: auto;             /* Mantiene le proporzioni dell'immagine */
+      border-radius: 8px;       /* Arrotonda gli angoli dell'immagine */
+    }
+
     @media (max-width: 768px) {
       .hero-text h1 { font-size: 2em; }
       .typed-text { font-size: 1.2em; }
@@ -85,9 +99,10 @@
     </div>
   </section>
 
-<section class="foto">
-<img src="WhatsApp Image 2025-07-02 at 22.59.32.jpeg" alt="La mia foto">
-</section>
+  <!-- Sezione foto centrata e rimpicciolita -->
+  <section class="foto">
+    <img src="WhatsApp Image 2025-07-02 at 22.59.32.jpeg" alt="La mia foto">
+  </section>
   
   <section class="about" id="about">
     <h2>About me</h2>
@@ -155,5 +170,4 @@
       } else { setTimeout(type, 100); }
     }());
   </script>
-</body>
-</html>
+</

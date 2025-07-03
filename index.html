@@ -22,13 +22,13 @@
 
     /* Riduzione dell'altezza della sezione hero */
     .hero { position: relative; height: 60vh; overflow: hidden; }
-    #bg-video { position: absolute; top: 0; left: 0; min-width: 50%; min-height: 100%; object-fit: cover; z-index: -1; filter: brightness(0.6) saturate(1.2); }
+    #bg-video { position: absolute; top: 0; left: 0; min-width: 100%; min-height: 100%; object-fit: cover; z-index: -1; filter: brightness(0.6) saturate(1.2); }
 
     .hero-text {
       position: absolute; top: 50%; left: 50%; transform: translate(-50%, -25%); /* Testo più in alto */
       text-align: center;
     }.hero-text h1 { font-size: 3em; letter-spacing: 2px; color: #00bcd4; }
-    .typed-text { font-size: 1.5em; margin-top: 10px; color: #b2ebf2; }
+    .typed-text { font-size: 1.5em; max-width: 800px; margin-top: 10px; color: #b2ebf2; }
 
     section { padding: 50px 20px; text-align: center; opacity: 0; transition: opacity 1s ease-out; }
     section.visible { opacity: 1; }
